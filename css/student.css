@@ -1,0 +1,191 @@
+.active{
+    background-color:#c50000;
+}
+
+/*头部*/
+header{
+    height: 120px;
+    background-color:#c50000;
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+header .topbox .logo{
+    margin-top: 15px;
+}
+header .topbox .csxy{
+    width: 80px;
+    height: 60px;
+    margin-left: 50px;
+    transition-duration: 0.5s;
+}
+header .topbox .csxy span{
+    display: block;
+}
+header .topbox .csxy span:nth-child(1){
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/csxylogo.png);
+    background-position:63px 0;
+    background-size:160px;
+    margin: 0 auto;
+    
+    
+}
+header .topbox .csxy:hover{
+    transform: scale(1.2);
+}
+header .topbox .csxy span:nth-child(2){
+    color: #fff;
+    margin-top: 5px;
+}
+
+/*导航*/
+.navbox{
+    background-color:#950505;
+    height: 80px;
+    box-sizing: border-box;
+}
+.navbox ul li{
+    display:block;
+}
+.navbox ul li{
+    padding-top: 20px;
+    width: 240px;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.5s;
+}
+.navbox ul li:hover{
+    background-color:#c50000;
+  
+    
+}
+.navbox ul li:hover a{
+    font-size: 18px;
+}
+.navbox ul li:hover a i::before{
+    font-size:30px;
+}
+
+.navbox ul li i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -5px;
+}
+
+.navbox ul li span{
+    display: block;
+}
+.navbox ul li a i::before{
+    transition: 0.5s;
+}
+.navbox ul li a{
+    transition: 0.5s;
+    display: block;
+    color: #fff;
+}
+footer{
+    background: #c50000;
+    padding: 30px 0;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+
+.contbox{
+    background-image: url(../images/student/bj1.jpg);
+   background-position:-186px -128px;
+   background-size: 130%;
+   height:1100px;
+   
+}
+.contbox .cont{
+    padding: 20px 0;
+}
+.contbox .cont table{
+    color: #fff;
+    font-size: 18px;
+    vertical-align: bottom;
+
+    border-collapse: collapse;
+   
+}
+.contbox table tr th:nth-child(1){
+    width: 200px;
+   
+}
+.contbox table tr th:nth-child(2){
+    width: 300px;
+    box-sizing: border-box;
+}
+.contbox table tr th:nth-child(3){
+    width: 200px;
+}
+.contbox table tr td:nth-child(1){
+    width: 200px;
+    vertical-align: bottom;
+}
+.contbox table tr td:nth-child(2){
+    width: 300px;
+    vertical-align: bottom;
+    text-indent: 2em;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.contbox table tr td:nth-child(3) img{
+    width: 200px;
+    height:160px;
+    display: block;
+}
+.contbox table tr th{
+    text-align: center;
+    font-family: "宋体";
+    line-height: 35px;
+    border: 4px double blue;
+   
+}
+.contbox table tr td{
+    border: 4px double blue;
+    vertical-align: bottom;
+    text-align: center;
+    font-family: "楷体";
+    
+}
+
+.contbox .cont .rgbox{
+    width: 450px;
+    height: 1035px;
+    background-color:#950505;
+    padding:30px 20px 20px 15px;
+    box-sizing: border-box;
+
+}
+
+.contbox .cont .rgbox .shxz h1{
+    padding-left: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.contbox .cont .rgbox .shzp{
+    text-indent: 2em;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.contbox .cont .rgbox .shzp img{
+    width: 300px;
+    padding:5px 5px 5px 0;
+}

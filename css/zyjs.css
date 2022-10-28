@@ -1,0 +1,167 @@
+.active{
+    background-color:#c50000;
+}
+
+/*头部*/
+header{
+    height: 120px;
+    background-color:#c50000;
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+header .topbox .logo{
+    margin-top: 15px;
+}
+header .topbox .csxy{
+    width: 80px;
+    height: 60px;
+    margin-left: 50px;
+    transition-duration: 0.5s;
+}
+header .topbox .csxy span{
+    display: block;
+}
+header .topbox .csxy span:nth-child(1){
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/csxylogo.png);
+    background-position:63px 0;
+    background-size:160px;
+    margin: 0 auto;
+    
+    
+}
+header .topbox .csxy:hover{
+    transform: scale(1.2);
+}
+header .topbox .csxy span:nth-child(2){
+    color: #fff;
+    margin-top: 5px;
+}
+
+/*导航*/
+.navbox{
+    
+    background-color:#950505;
+    height: 80px;
+    box-sizing: border-box;
+}
+.navbox ul li{
+    display:block;
+}
+.navbox ul li{
+    padding-top: 20px;
+    width: 240px;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.5s;
+}
+.navbox ul li:hover{
+   
+    background-color:#c50000;
+  
+    
+}
+.navbox ul li:hover a{
+    font-size: 18px;
+}
+.navbox ul li:hover a i::before{
+    font-size:30px;
+}
+
+.navbox ul li i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -5px;
+}
+
+.navbox ul li span{
+    display: block;
+}
+.navbox ul li a i::before{
+    transition: 0.5s;
+}
+.navbox ul li a{
+    transition: 0.5s;
+    display: block;
+    color: #fff;
+}
+footer{
+    background: #c50000;
+    padding: 30px 0;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+
+.contbox{
+    background-image: url(../images/bg.jpg);
+   background-position:-186px -128px;
+   background-size: 130%;
+  
+}
+.contbox .cont{
+    height:610px;
+    padding: 20px 0;
+}
+.contbox .cont .zymc h1{
+    text-align: center;
+    color: #fff;
+}
+.contbox .cont .zymc h2{
+    font-size: 20px;
+    color: #fff;
+}
+.contbox .cont .zymc p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-indent: 2em;
+}
+.contbox .cont .zymc{
+    color: #fff;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    width: 900px;
+    height: 540px;
+    background:#950505; ;
+   
+}
+.contbox .cont .zyrg{
+    margin-top: 30px;
+    width: 240px;
+    height: 540px;
+    background:#950505;
+    box-sizing: border-box;
+    padding: 20px 0 0 0;
+}
+.contbox .cont .zyrg h2{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.contbox .cont .zyrg p a{
+    color:#fff;
+    display: block;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s;
+}
+.contbox .cont .zyrg p a:hover{
+    background: #c50000;
+}
+

@@ -1,0 +1,180 @@
+.active{
+    background-color:#c50000;
+}
+
+/*头部*/
+header{
+    height: 120px;
+    background-color:#c50000;
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+header .topbox .logo{
+    margin-top: 15px;
+}
+header .topbox .csxy{
+    width: 80px;
+    height: 60px;
+    margin-left: 50px;
+    transition-duration: 0.5s;
+}
+header .topbox .csxy span{
+    display: block;
+}
+header .topbox .csxy span:nth-child(1){
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/csxylogo.png);
+    background-position:63px 0;
+    background-size:160px;
+    margin: 0 auto;
+    
+    
+}
+header .topbox .csxy:hover{
+    transform: scale(1.2);
+}
+header .topbox .csxy span:nth-child(2){
+    color: #fff;
+    margin-top: 5px;
+}
+
+/*导航*/
+.navbox{
+    background-color:#950505;
+    height: 80px;
+    box-sizing: border-box;
+}
+.navbox ul li{
+    display:block;
+}
+.navbox ul li{
+    padding-top: 20px;
+    width: 240px;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.5s;
+}
+.navbox ul li:hover{
+    background-color:#c50000;
+  
+    
+}
+.navbox ul li:hover a{
+    font-size: 18px;
+}
+.navbox ul li:hover a i::before{
+    font-size:30px;
+}
+
+.navbox ul li i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -5px;
+}
+
+.navbox ul li span{
+    display: block;
+}
+.navbox ul li a i::before{
+    transition: 0.5s;
+}
+.navbox ul li a{
+    transition: 0.5s;
+    display: block;
+    color: #fff;
+}
+footer{
+    background: #c50000;
+    padding: 30px 0;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+video{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    z-index: -1;
+}
+
+audio{
+    width:300px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top:30px;
+    font-size: 12px;
+}
+.contbox{
+    background: #f3f3f36b;
+}
+.contbox marquee{
+    height: 30px;
+    background: #c50000;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contbox .cont{
+    height: 880px;
+}
+.contbox .cont table {
+    box-sizing: border-box;
+    text-align: center;
+    border-collapse:collapse;
+   font-weight: bold;
+}
+
+.contbox .cont table tr th{
+    border-right:  1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.contbox .cont table tr td{
+   border-left:  1px solid black;
+   border-top:  1px solid black;
+   padding: 5px;
+   box-sizing: border-box;
+}
+.contbox .cont table tr th:nth-child(1){
+    width: 200px;
+    
+}
+.contbox .cont table tr th:nth-child(2){
+    width: 900px;
+}
+.contbox .cont table tr th:nth-child(3){
+    width: 300px;
+    border-right: none;
+}
+.contbox .cont table tr td:nth-child(1){
+    width: 200px;
+    border-left: none;
+}
+.contbox .cont table tr td:nth-child(2){
+    width: 900px;
+}
+.contbox .cont table tr td:nth-child(3) img{
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+
